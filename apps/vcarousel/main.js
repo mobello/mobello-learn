@@ -12,7 +12,7 @@ $class('tau.demo.VCarouselController').extend(tau.ui.SceneController).define({
     var panel1 = new tau.ui.Panel({styles: {backgroundColor: 'red'}});
     var panel2 = new tau.ui.Panel({styles: {backgroundColor: 'blue'}});
     var panel3 = new tau.ui.Panel({
-      styles: {backgroundColor: 'yello'},
+      styles: {backgroundColor: 'yellow'},
       components: [
         new tau.ui.Button({label: 'button1'})
       ]

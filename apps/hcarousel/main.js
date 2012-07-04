@@ -11,7 +11,7 @@ $class('tau.demo.HCarouselController').extend(tau.ui.SceneController).define({
     });
     var panel1 = new tau.ui.Panel({styles: {backgroundColor: 'red'}});
     var panel2 = new tau.ui.Panel({styles: {backgroundColor: 'blue'}});
-    var panel3 = new tau.ui.Panel({styles: {backgroundColor: 'yello'}});
+    var panel3 = new tau.ui.Panel({styles: {backgroundColor: 'yellow'}});
     
     hCarousel.setComponents([panel1, panel2, panel3]);
     
