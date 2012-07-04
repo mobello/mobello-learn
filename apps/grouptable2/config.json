@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.demo.GroupTable2Controller',
+  require     : $APPPATH + '/grouptable2/main.js', 
+  icon        : $APPPATH + '/grouptable2/icon.png',
+  title       : 'Group Table',
+  desc        : '그룹 테이블 예제2',
+  version     : '1.0.0',
+  vendor      : 'KT Corporation'
+});

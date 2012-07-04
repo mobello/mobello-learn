@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.demo.SimpleTableController',
+  require     : $APPPATH + '/simpletable/main.js', 
+  icon        : $APPPATH + '/simpletable/icon.png',
+  title       : 'Simple Table',
+  desc        : '하위에 셀만 있는 간단한 테이블 예제',
+  version     : '1.0.0',
+  vendor      : 'KT Corporation'
+});

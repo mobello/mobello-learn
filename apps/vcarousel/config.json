@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.demo.VCarouselController',
+  require     : $APPPATH + '/vcarousel/main.js',
+  icon        : $APPPATH + '/vcarousel/icon.png',
+  title       : 'vertical Carousel',
+  desc        : '수직방향 스크롤이 있는 Carousel 예제',
+  version     : '1.0.0',
+  vendor      : 'KT Corporation'
+});

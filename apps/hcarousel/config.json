@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.demo.HCarouselController',
+  require     : $APPPATH + '/hcarousel/main.js', 
+  icon        : $APPPATH + '/hcarousel/icon.png',
+  title       : 'horizontal Carousel',
+  desc        : '수평방향 스크롤이 있는 Carousel 예제',
+  version     : '1.0.0',
+  vendor      : 'KT Corporation'
+});
