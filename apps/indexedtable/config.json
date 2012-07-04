@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.demo.IndexedTableController',
+  require     : '/main.js', 
+  icon        : '/icon.png',
+  title       : 'Indexed Table',
+  desc        : 'Indexbar가 있는 테이블 예제',
+  version     : '1.0.0',
+  vendor      : 'KT Corporation'
+});
