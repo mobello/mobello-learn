@@ -2,7 +2,7 @@ config({
   classname   : 'tau.demo.GroupTableController',
   require     : $APPPATH + '/grouptable/main.js', 
   icon        : $APPPATH + '/grouptable/icon.png',
-  title       : 'Group Table',
+  title       : 'gTable',
   desc        : '그룹 테이블 예제',
   version     : '1.0.0',
   vendor      : 'KT Corporation'

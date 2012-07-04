@@ -2,7 +2,7 @@ config({
   classname   : 'tau.demo.IndexedTableController',
   require     : $APPPATH + '/indexedtable/main.js',
   icon        : $APPPATH + '/indexedtable/icon.png',
-  title       : 'Indexed Table',
+  title       : 'iTable',
   desc        : 'Indexbar가 있는 테이블 예제',
   version     : '1.0.0',
   vendor      : 'KT Corporation'
