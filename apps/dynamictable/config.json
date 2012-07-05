@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.demo.DynamicTableController',
+  require     : '/main.js', 
+  icon        : '/icon.png',
+  title       : 'Dynamic Table',
+  desc        : '외부 데이터 가져오는 테이블 예제',
+  version     : '1.0.0',
+  vendor      : 'KT Corporation'
+});
