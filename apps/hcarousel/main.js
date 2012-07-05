@@ -3,8 +3,8 @@
  */
 $class('tau.demo.HCarouselController').extend(tau.ui.SceneController).define({
   
-  // scene파일을 따로 생성하지 않고 initScene함수를 오버라이드해서 scene을 생성한다.
-  initScene: function () {
+  // scene파일을 따로 생성하지 않고 loadScene함수를 오버라이드해서 scene을 생성한다.
+  loadScene: function () {
     var scene = this.getScene();
     var hCarousel = new tau.ui.Carousel({
       vertical: false // 설정하지 않아도 기본값은 수평방향임.

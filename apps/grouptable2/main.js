@@ -3,8 +3,8 @@
  */
 $class('tau.demo.GroupTable2Controller').extend(tau.ui.SceneController).define({
   
-  // scene파일을 따로 생성하지 않고 initScene함수를 오버라이드해서 scene을 생성한다.
-  initScene: function () {
+  // scene파일을 따로 생성하지 않고 loadScene함수를 오버라이드해서 scene을 생성한다.
+  loadScene: function () {
     var scene = this.getScene();
     var groupTable = new tau.ui.Table({
       group: true,
