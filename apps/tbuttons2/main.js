@@ -1,7 +1,7 @@
 /**
  * 타입 테마를 적용한 버튼 예제
  */
-$class('tau.demo.TypeButtonsController').extend(tau.ui.SceneController).define({
+$class('tau.demo.TypeButtons2Controller').extend(tau.ui.SceneController).define({
   
   // scene파일을 따로 생성하지 않고 loadScene함수를 오버라이드해서 scene을 생성한다.
   loadScene: function () {
