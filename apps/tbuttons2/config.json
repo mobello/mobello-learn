@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.demo.TypeButtons2Controller',
+  require     : $APPPATH + '/tbuttons2/main.js', 
+  icon        : $APPPATH + '/tbuttons2/icon.png',
+  title       : 'tButtons2',
+  desc        : '타입 테마를 적용한 버튼 예제',
+  version     : '1.0.0',
+  vendor      : 'KT Corporation'
+});

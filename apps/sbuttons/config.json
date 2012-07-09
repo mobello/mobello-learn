@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.demo.ShapeButtonsController',
+  require     : $APPPATH + '/sbuttons/main.js', 
+  icon        : $APPPATH + '/sbuttons/icon.png',
+  title       : 'sButtons',
+  desc        : '모양 테마를 적용한 버튼 예제',
+  version     : '1.0.0',
+  vendor      : 'KT Corporation'
+});
