@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.demo.StatusButtonController',
+  require     : $APPPATH + '/button/main.js', 
+  icon        : $APPPATH + '/button/icon.png',
+  title       : 'button',
+  desc        : '상태에 따른 버튼 스타일 적용하기 예제',
+  version     : '1.0.0',
+  vendor      : 'KT Corporation'
+});
