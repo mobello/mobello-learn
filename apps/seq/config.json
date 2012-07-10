@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.sample.ctrl.SeqNavi',
+  require     : '/main.js', 
+  icon        : '/icon.png',
+  title       : 'SeqNaviApp',
+  version     : '1.0.0',
+  vendor      : 'KT Corp',
+  theme       : 'ios'
+});
