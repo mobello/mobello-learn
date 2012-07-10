@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.demo.PaginationTableController',
+  require     : '/main.js', 
+  icon        : '/icon.png',
+  title       : 'pagination',
+  desc        : 'Pagination 테이블 예제',
+  version     : '1.0.0',
+  vendor      : 'KT Corporation'
+});
