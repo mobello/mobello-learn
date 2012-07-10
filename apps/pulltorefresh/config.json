@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.demo.PullToRefreshTableController',
+  require     : '/main.js', 
+  icon        : '/icon.png',
+  title       : 'pullToRefresh',
+  desc        : '끌어당겼다가 놓기 테이블 예제',
+  version     : '1.0.0',
+  vendor      : 'KT Corporation'
+});
