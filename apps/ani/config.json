@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.sample.ani.SceneCtrl',
+  require     : $APPPATH + '/ani/main.js', 
+  icon        : $APPPATH + '/ani/icon.png',
+  title       : 'AniApp',
+  version     : '1.0.0',
+  vendor      : 'KT Corp',
+  theme       : 'ios'
+});

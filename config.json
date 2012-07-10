@@ -1,6 +1,9 @@
 config({
   title       : 'Mobello',
-  apps        : ['simpletable', 'grouptable', 'grouptable2', 'indexedtable', 'hcarousel', 'vcarousel'],
+  apps        : ['simpletable', 'grouptable', 'grouptable2', 
+  				 'indexedtable', 'hcarousel', 'vcarousel',
+  				 'scene', 'seq', 'parallel', 'ani', 'ani1', 'ani2'
+  				],
   version     : '1.0.0',
   vendor      : 'kt corp.',
   theme       : 'default',

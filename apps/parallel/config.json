@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.sample.ctrl.ParallelNavi',
+  require     : $APPPATH + '/parallel/main.js', 
+  icon        : $APPPATH + '/parallel/icon.png',
+  title       : 'ParallelApp',
+  version     : '1.0.0',
+  vendor      : 'KT Corp',
+  theme       : 'ios'
+});
