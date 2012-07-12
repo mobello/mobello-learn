@@ -22,7 +22,7 @@ $class('tau.sample.ani.SceneCtrl').extend(tau.ui.SceneController).define({
     
     /** Transition **/   
     var tran = new tau.fx.Transition({duration: "1000ms"});
-    tran.setStyle("width", "200px");
+    tran.setStyle("width", "150px");
     tran.setStyle("height","200px",{timingFunction : "cubic-bezier(0, 1, 0, 1)", duration: "1500ms"});
     tran.setStyle("color","red",{timingFunction : "ease-out", duration: "1500ms"});
     tran.setStyle("margin","20px",{timingFunction : "ease-out", duration: "1500ms"});

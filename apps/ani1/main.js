@@ -22,13 +22,13 @@ $class('tau.sample.ani1.SceneCtrl').extend(tau.ui.SceneController).define({
     
     var ani = new tau.fx.Animation({
     from : {'background': 'red'},
-    to : {'background': 'yellow', 'width' : '300px', 'height': '200px'}
+    to : {'background': 'yellow'}
     }, {
       timingFunction : 'ease-out',
-      duration : 4000,
+      duration : 2500,
       override : true,
       iterationCount : 2,
-      delay : 0
+      delay : 1000
       });
     ani.animate(Button1.getDOM());
     

@@ -9,7 +9,8 @@ $class('tau.sample.ani2.SceneCtrl').extend(tau.ui.SceneController).define({
     
     var Button1 = new tau.ui.Button({
       id : 'Button1',
-      label : 'Button1'
+      label : 'Button1',
+      styles : {'display' : 'none'}
     });
     var Button2 = new tau.ui.Button({
       id : 'Button2',
@@ -28,7 +29,7 @@ $class('tau.sample.ani2.SceneCtrl').extend(tau.ui.SceneController).define({
     var Button2 = scene.getComponent('Button2');
    
     
-    tau.fx.fadeIn(Button1.getDOM(),{duration : 1000});
+    tau.fx.fadeIn(Button1.getDOM(),{duration : 500});
     tau.fx.fadeOut(Button2.getDOM(),{duration :'1s'});
   }
   
