@@ -31,9 +31,8 @@ $class('sample.EventHanglerController').extend(tau.ui.SceneController).define({
       id : 'buttonPanel',
       styles: {        
         width: '100%',
-        height: '400px',
-        backgroundColor: 'gray',
-        border: '1px solid gray'
+        height: '100%',
+        backgroundColor: 'gray'        
       }
     });
     //삭제 버튼이 Tap되었을때 버튼을 삭제하는  이벤트 핸들러를 등록한다.
