@@ -1,0 +1,10 @@
+config({
+  classname   : 'sample.BubbleController',
+  require     : $APPPATH + '/evtbubble/main.js', 
+  icon        : $APPPATH + '/evtbubble/icon.png',
+  desc		  : '이벤트 버블링 예제'
+  title       : 'EventBubble',
+  version     : '1.0.0',
+  vendor      : 'KT Corp',
+  theme       : 'ios'
+});
