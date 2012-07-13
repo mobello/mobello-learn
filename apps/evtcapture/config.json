@@ -3,7 +3,7 @@ config({
   require     : $APPPATH + '/evtcapture/main.js', 
   icon        : $APPPATH + '/evtcapture/icon.png',
   desc		  : '이벤트 캡쳐링 예제',
-  title       : 'AniApp',
+  title       : 'EventCapturing',
   version     : '1.0.0',
   vendor      : 'KT Corp',
   theme       : 'ios'
