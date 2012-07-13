@@ -1,7 +1,7 @@
 config({
   classname   : 'sample.EventHanglerController',
-  require     : $APPPATH + '/evmgt/main.js', 
-  icon        : $APPPATH + '/evmgt/icon.png',
+  require     : $APPPATH + '/evtmgt/main.js', 
+  icon        : $APPPATH + '/evtmgt/icon.png',
   title       : 'EventManagement',
   desc        : '이벤트 등록 삭제 예제',
   version     : '1.0.0',
