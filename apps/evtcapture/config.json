@@ -1,0 +1,9 @@
+config({
+  classname   : 'sample.CapturingController',
+  require     : '/main.js', 
+  icon        : '/icon.png',
+  title       : 'EventCapturing',
+  version     : '1.0.0',
+  vendor      : 'KT Corp',
+  theme       : 'ios'
+});

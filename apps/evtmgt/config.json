@@ -1,0 +1,9 @@
+config({
+  classname   : 'sample.EventHanglerController',
+  require     : '/main.js', 
+  icon        : '/icon.png',
+  title       : 'EventManagement',
+  version     : '1.0.0',
+  vendor      : 'KT Corp',
+  theme       : 'ios'
+});
