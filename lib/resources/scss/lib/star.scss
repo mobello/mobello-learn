@@ -1,0 +1,39 @@
+$custom-star-icon: "http://upload.wikimedia.org/wikipedia/commons/b/b0/Star-.svg" !default;
+$custom-star-half-icon: "http://upload.wikimedia.org/wikipedia/commons/b/b5/Star%C2%BD.svg" !default;
+$custom-star-selected-icon: "http://upload.wikimedia.org/wikipedia/commons/6/63/Star%2A.svg" !default;
+$custom-star-size: 50px !default;
+
+
+@mixin custom-star() {
+  /** star *******************************************************************/
+  .custom-star {
+    @include tau-inline-flexbox;
+    position: relative;
+    background-image: url(#{$custom-star-icon});
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: $custom-star-size;
+    width: $custom-star-size;
+    padding: 0;
+    margin: 0;
+    
+    & > .left, & > .right {
+      position: absolute;
+      height: 100%;
+      width: 50%;
+      background-color: transparent;
+    }
+    & > .left {
+      left: 0;
+    }
+    & > .right {
+      right: 0;
+    }
+    &.half-selected {
+      background-image: url(#{$custom-star-half-icon});
+    }
+    &.selected {
+      background-image: url(#{$custom-star-selected-icon});
+    }
+  }
+}

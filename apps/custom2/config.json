@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.demo.Custom2Controller',
+  require     : '/main.js', 
+  icon        : '/icon.png',
+  title       : 'custom2',
+  desc        : '커스텀 컴포넌트 예제',
+  version     : '1.0.0',
+  vendor      : 'KT Corporation'
+});

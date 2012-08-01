@@ -1,0 +1,9 @@
+config({
+  classname   : 'tau.demo.StarRatingController',
+  require     : '/main.js', 
+  icon        : '/icon.png',
+  title       : 'starRating',
+  desc        : '커스텀 컴포넌트 예제3',
+  version     : '1.0.0',
+  vendor      : 'KT Corporation'
+});
