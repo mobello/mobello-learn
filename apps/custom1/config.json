@@ -1,6 +1,6 @@
 config({
   classname   : 'tau.demo.Custom1Controller',
-  require     : $APPPATH + '/custom1/main.js', 
+  require     : $APPPATH + '/custom1/main.js',
   icon        : $APPPATH + '/custom1/icon.png',
   title       : 'custom1',
   desc        : '커스텀 컴포넌트 예제',
