@@ -1,0 +1,10 @@
+config({
+  classname : 'note.MainController',
+  require 	: '/main.js',
+  version 	: '1.0',
+  title 	: 'note',
+  vendor	: 'kt corp',
+  theme		: 'ios',
+  icon 		: '/icon.png',
+  loglevel	  : 1,
+});

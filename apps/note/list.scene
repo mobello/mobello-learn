@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene xmlns="http://mobello.github.com/tau/scene" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Table id="notes" onSelectChange="propagateEvent" group="true">main.jsmain.js</Table>
+	
+</Scene>

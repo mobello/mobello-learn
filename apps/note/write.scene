@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene xmlns="http://mobello.github.com/tau/scene" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" viewPortWidth="320px" viewPortHeight="480px" layoutMode="absolute">
+	<Panel data-layout-mode="absolute">
+	<Label text="Narrative"><Label.styles width="69px" height="18px" position="absolute" left="19px" top="68px"></Label.styles></Label>
+	<TextField id="title"><TextField.styles width="216px" height="32px" position="absolute" left="94px" top="20px"></TextField.styles></TextField>
+	<TextArea id="narrative"><TextArea.styles width="216px" height="279px" position="absolute" left="94px" top="68px"></TextArea.styles></TextArea><Label text="Title*"><Label.styles width="69px" height="18px" position="absolute" left="19px" top="20px"></Label.styles></Label>
+	
+	<Panel.styles width="100%" height="429px" position=""></Panel.styles></Panel>
+	<ToolBar snap="true" dock="bottom">
+	
+	<Space><Space.styles width="227px"></Space.styles></Space>
+	<Button onTap="handleTrash" id="write"><Button.styleClass type="red"></Button.styleClass><Button.label normal="Trash" disabled="Trash"></Button.label></Button></ToolBar>
+	
+	
+	
+	
+	
+	
+</Scene>
